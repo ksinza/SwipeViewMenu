@@ -14,5 +14,9 @@ namespace SwipeMenu
         {
             InitializeComponent();
         }
+
+        void OpenSwipe(System.Object sender, System.EventArgs e)
+        {
+        }
     }
 }

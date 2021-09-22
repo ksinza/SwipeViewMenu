@@ -125,6 +125,9 @@
   <ItemGroup>
     <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
     <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+    <PackageReference Include="Xamarin.Forms.PancakeView">
+      <Version>2.3.0.759</Version>
+    </PackageReference>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>
@@ -132,5 +135,21 @@
       <Project>{D623ECD6-8145-48B7-BAC7-1A6957DEF122}</Project>
       <Name>SwipeMenu</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\bell.png" />
+    <BundleResource Include="Resources\bg.jpg" />
+    <BundleResource Include="Resources\checkmark.png" />
+    <BundleResource Include="Resources\cross.png" />
+    <BundleResource Include="Resources\edit.png" />
+    <BundleResource Include="Resources\envelope.png" />
+    <BundleResource Include="Resources\home.png" />
+    <BundleResource Include="Resources\menu.png" />
+    <BundleResource Include="Resources\profile.png" />
+    <BundleResource Include="Resources\tasks.png" />
+    <BundleResource Include="Resources\timelapse.png" />
+    <BundleResource Include="Resources\upload.png" />
+    <BundleResource Include="Resources\user.png" />
+    <BundleResource Include="Resources\video.png" />
   </ItemGroup>
 </Project>

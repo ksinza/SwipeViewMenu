@@ -10,6 +10,8 @@ namespace SwipeMenu
         {
             InitializeComponent();
 
+            Device.SetFlags(new[] {"SwipeView_Experimental"});
+
             MainPage = new MainPage();
         }
 
